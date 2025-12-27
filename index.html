@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed Projects - Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider-wrapper">
+            <nav class="slider-nav" id="slider-nav"></nav>
+            <div class="slider-left">
+                <div class="slider-title">
+                    <h1>COMPLETED</h1>
+                    <span>
+                        <h1>PROJECTS</h1>
+                        <div class="slider-title-line"></div>
+                    </span>
+                </div>
+                <p class="slider-description">
+                    Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families.
+                </p>
+                
+                <div class="project-details">
+                    <div class="detail-item">
+                        <div class="detail-label">CITY:</div>
+                        <div class="detail-value" id="detail-city"></div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">APARTMENT AREA:</div>
+                        <div class="detail-value" id="detail-area"></div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">REPAIR TIME:</div>
+                        <div class="detail-value" id="detail-time"></div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">REPAIR COST:</div>
+                        <div class="detail-value" id="detail-cost"></div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-arrow slider-arrow-left" aria-label="Предыдущий слайд">
+                        <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 1L1 7L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 7H41" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <div class="slider-dots" id="slider-dots"></div>
+                    <button class="slider-arrow slider-arrow-right" aria-label="Следующий слайд">
+                        <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36 1L41 7L36 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 7H41" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="slider-right">
+                <div class="slider-slides" id="slider-slides"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
